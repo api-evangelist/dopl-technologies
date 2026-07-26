@@ -1,8 +1,18 @@
 aid: dopl-technologies
 name: dopl technologies
-description: dopl technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Dopl Technologies is a Seattle-based data and AI company (founded 2022,
+  Techstars-backed) democratizing access to diagnostic exams and interventional
+  procedures through telerobotic ultrasound. Its Dopl Traverse platform and
+  SonoFlex app let a remote sonographer operate an ultrasound probe over a
+  network from significant distances, extending specialist-level imaging into
+  rural and workforce-constrained regions. Field testing in rural Washington
+  hospitals has reduced patient wait times by over 90 percent. The company cites
+  50M+ missed ultrasound exams annually and $19.5B in lost revenue from unequal
+  imaging access, and expects FDA clearance in 2027 before expanding into
+  minimally invasive procedures. As of this profile the company publishes no
+  public API, SDK, developer portal, or API documentation; this record is a
+  network stub maintained for discovery and future enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/dopl-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +20,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/Dj0vhIvdnP7PEKym4kZIMYFwvg.png
 tags:
 - Company
+- Health Care
+- Medical Imaging
+- Ultrasound
+- Robotics
+- Telemedicine
+- Artificial Intelligence
+- Healthcare Access
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dopl-technologies-domain-security.yml
 - type: Website
   url: https://dopltechnologies.com/
+- type: PrivacyPolicy
+  url: https://dopltechnologies.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/dopl-technologies
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dopl-technologies
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
